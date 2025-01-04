@@ -56,41 +56,7 @@ Sistema web para la gestión de socios y cuotas de un club de yates. Permite adm
 
 - LocalStorage para persistencia de datos
 
-## Instalación 📦
 
-1. Clonar el repositorio
-
-```bash
-git clone [url-del-repositorio]
-```
-
-2. Estructura de archivos necesaria:
-
-```
-club-yates/
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   ├── Preentrega.js
-│   ├── socio.js
-│   └── administradores.json
-└── img/
-    └── yatch.webp
-```
-
-3. Configurar administradores en `js/administradores.json`:
-
-```json
-[
-  {
-    "usuarioA": "numero_documento",
-    "passwordA": "contraseña"
-  }
-]
-```
-
-4. Abrir `index.html` en un servidor web (puede ser local)
 
 ## Uso 💡
 
